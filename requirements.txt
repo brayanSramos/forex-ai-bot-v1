@@ -1,0 +1,20 @@
+# Conexión a PostgreSQL
+psycopg2-binary>=2.9
+
+# Manejo de datos
+pandas>=2.0
+numpy>=1.25
+
+# Para requests y APIs
+requests>=2.31
+flask>=3.0  # si usas API local con Flask
+
+# Para manejo de .env
+python-dotenv>=1.0
+
+# Opcional: para tareas de fechas y trading
+pytz>=2025.10
+ta-lib>=0.4.27  # si usas análisis técnico
+
+# Para logs y debugging
+loguru>=0.7
